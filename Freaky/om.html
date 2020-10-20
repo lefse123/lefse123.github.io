@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Thien's Blogg</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <meta name="viewport" content="width=device-width, intial scale 1.0">
+</head>
+<body>
+<div id="wrapper">
+<img src="img/header.png" alt="header" class="align-center">
+
+            <div class="sidebar">
+                <a href="om.html">Om meg</a>
+                <a href="index.html">Hjem</a>
+
+            <button class="droppknapp">Innlegg etter dato</button>
+                <div class="dopdown-container">
+                <a href="#forsteokt"> 01.10.2020</a>
+                <a href = "#tredjeokt"> 03.10.2020</a>
+                <a href = "#femteokt"> 05.10.2020</a>
+                <a href = "#sjuendeokt"> 07.10.2020</a>
+        </div>
+    </div>
+    <!--- kopiert fra w3 fordi jeg kan ikke javascrips enda--->
+    <script>
+
+var dropdown = document.getElementsByClassName("droppknapp");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+    <div class="ommeg">
+    <h1>Hvem er jeg</h1>
+        <!---Du skriver om hvem du er under her.--->
+        <p1> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p1>
+    </div>
+    </div>
+</body>
+</html>

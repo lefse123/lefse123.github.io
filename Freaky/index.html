@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Thien's Blogg</title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <meta name="viewport" content="width=device-width, intial scale 1.0">
+</head>
+<body>
+<div id="wrapper">
+<img src="img/header.png" alt="header" class="align-center">
+
+            <div class="sidebar">
+                <a href="om.html">Om meg</a>
+                <a href="index.html">Hjem</a>
+
+            <button class="droppknapp">Innlegg etter dato</button>
+                <div class="dopdown-container">
+                <a href="#forsteokt"> 01.10.2020</a>
+                <a href = "#tredjeokt"> 03.10.2020</a>
+                <a href = "#femteokt"> 05.10.2020</a>
+                <a href = "#sjuendeokt"> 07.10.2020</a>
+        </div>
+    </div>
+    <!--- kopiert fra w3 fordi jeg kan ikke javascript enda--->
+    <script>
+
+var dropdown = document.getElementsByClassName("droppknapp");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+
+    <div class="innlegg">
+
+        <div id="sjuendeokt">
+
+            <h1> 07.10.2020</h1>
+
+            <p1> <h3>Hei!</h3>
+
+        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+        <br> <br>
+        On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.( ͡° ͜ʖ ͡°) </p1>
+    </div>
+
+          <div id="femteokt">
+
+            <h1> 05.10.2020</h1>
+
+            <p1> <h3>Hola!</h3> Jeg hoppet ikke av en bru i dag heller, yaay!</p1>
+    </div>
+
+
+
+        <div id="tredjeokt">
+
+            <h1> 03.10.2020</h1>
+
+            <p1> <h3>Hei. søtinger! </h3>
+
+        The toppings you may chose for that TV dinner pizza slice when you forgot to shop for foods, the paint you may slap on your face to impress the new boss is your business. But what about your daily bread? Design comps, layouts, wireframes—will your clients accept that you go about things the facile way? Authorities in our business will tell in no uncertain terms that Lorem Ipsum is that huge, huge no no to forswear forever. Not so fast, I'd say, there are some redeeming factors in favor of greeking text, as its use is merely the symptom of a worse problem to take into consideration.
+        <br> <br>
+        You begin with a text, you sculpt information, you chisel away what's not needed, you come to the point, make things clear, add value, you're a content person, you like words. Design is no afterthought, far from it, but it comes in a deserved second. Anyway, you still use Lorem Ipsum and rightly so, as it will always have a place in the web workers toolbox, as things happen, not always the way you like it, not always in the preferred order. Even if your less into design and more into content strategy you may find some redeeming value with, wait for it, dummy copy, no less. <h3>¯\_(ツ)_/¯ </h3></p1>
+    </div>
+
+
+
+        <div id="forsteokt">
+
+            <h1> 01.10.2020</h1>
+
+            <p1><h3>Heia, bloggen!</h3>
+
+        Do you like Cheese Whiz? Spray tan? Fake eyelashes? That's what is Lorem Ipsum to many—it rubs them the wrong way, all the way. It's unreal, uncanny, makes you wonder if something is wrong, it seems to seek your attention for all the wrong reasons. Usually, we prefer the real thing, wine without sulfur based preservatives, real butter, not margarine, and so we'd like our layouts and designs to be filled with real words, with thoughts that count, information that has value. </p1>
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
