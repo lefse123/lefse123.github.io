@@ -3,39 +3,43 @@
     font-family: 'Kufam', cursive;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 body{
-  background-color: black;
-    background-image: url(img/marsnasaheader.jpg)no-repeat;
-    background-size: auto;
+    background-color: black;
 
 }
 
 #wrapper{
     max-width: 960px;
-    position: absolute;
-    margin-left: 250px;
-    padding-bottom: 250px;
     text-align: center;
+    margin: auto;
     color: white;
 }
 
 header {
+
+}
+
+#tittel {
+    font-size: 25px
 }
 
 nav ul {
-    text-align: center;
-    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
 
 nav li {
+    list-style: none;
     display: inline;
-    margin: auto;
 }
 nav li a {
     color: white;
+    font-size: 20px;
 }
+
+#content {
+
+}
+
+/*skjermstørrelse kommer her/*
