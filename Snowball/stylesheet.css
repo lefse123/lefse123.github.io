@@ -6,7 +6,6 @@
 
 
 body{
-    background-color: black;
     color: white;
     background:
 }
@@ -21,7 +20,6 @@ nav h1{
     position: absolute;
     width: 200px;
     top: 8px;
-    left: 5%;
     color: #fff;
 }
 
@@ -62,14 +60,28 @@ label #tegn-2{
 }
 
 .banner-area {
-    background:linear-gradient(to right, rgba(0,0,0,6),rgba(0,0,0,6)), url(/img/Mars-atmosphere-1.jpg);
+    background:linear-gradient(to right, rgba(0,0,0,6),rgba(0,0,0,6));
+    background-image: url(img/marsnasaheader.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
-.banner-text {
+.banner-tekst {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tekst h2 {
     color: white;
     margin-top: -140px;
     font-size:56px;
@@ -79,28 +91,38 @@ label #tegn-2{
 
 /*skjermtilpasning*/
 @media (max-width:870px){
+    label #tegn-1{
+        display: block;
+    }
     nav ul {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: crimsom;
+        background: indigo;
         top: 50px;
         left: -100%;
         text-align: center;
         transition: .5s;
         z-index: 10;
     }
-    nav ul li {
+    nav li {
         display: block;
         margin: 40px 0;
         line-height: 30px;
     }
-    nav ul li a{
+    nav li a{
         font-size: 20px;
     }
     #res-nav:checked ~ ul {
         left: 0;
     }
+    #res-nav:checked~label #tegn-1{
+        display: none;
+    }
+    #res-nav:checked~label #tegn-2{
+        display: block;
+    }
+
 }
 
 
