@@ -10,6 +10,11 @@ body{
     background: black;
 }
 
+#maincontent {
+    overflow: hidden; /*holder footer nede*/
+    align-content: center;
+    text-align: center;
+}
 
 /*navigasjon*/
 nav{
@@ -222,31 +227,47 @@ label #tegn-2{
 
 }
 
-.kolonne1a3{
-    float: left;
-    width: 320px;
-    margin: 10px;
+
+/* Create three equal columns that floats next to each other */
+
+.jord {
+    margin-top: 100px;
+    align-content: center;
 }
 
-.kolonne2a3 {
-    float: left;
-    width: 320px;
-    margin 10px;
+.jord-img {
+    background-image: url
 }
 
-.kolonne3a3 {
-    float: left;
-    width; 320px;
-    margin: 10px;
+
+.rad {
+    padding-top: 35px;
 }
+
+.kolonne {
+    float: left;
+    width: 30.0%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+
+
+}
+
+
+/* Clear floats after the columns */
+.rad:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 .footer {
     background-color: indigo;
-    margin-top: 600px;
-    padding: 15px;
+    padding: 20px;
+    margin-top: 20px;
     text-align: center;
 }
-
 
 
 
