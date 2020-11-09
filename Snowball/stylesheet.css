@@ -116,8 +116,10 @@ label #tegn-2{
 
 .banner-tekst-star h2 {
     color: white;
-    margin-top: 120px; /*plassering av tekst på banner*/
+    margin-top: -300px; /*plassering av tekst på banner*/
     text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
 }
 
 /*banner space projects*/
