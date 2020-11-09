@@ -245,19 +245,8 @@ label #tegn-2{
     text-transform: uppercase;
 }
 
-.mars h2 {
-    margin-top: 100px;
-    max-width: 960px;
-    font-size: 25px;
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-
 .mars-img {
-    padding-top: 200px;
+    padding-top: 300px;
     background-image: url(img/marsbar.png);
      -webkit-background-size: cover;
     background-size: cover;
@@ -265,19 +254,20 @@ label #tegn-2{
     height: 100vh;
 }
 
+.mars-img h2 {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+}
+
+
 .jord h1 {
     margin-top: 100px;
     align-content: center;
     font-size: 60px;
     text-transform: uppercase;
-}
-
-.jord h2 {
-    margin-top: 100px;
-    max-width: 960px;
-    text-align: center;
-    font-size: 25px;
-
 }
 
 .jord-img {
@@ -287,6 +277,11 @@ label #tegn-2{
     background-size: cover;
     background-position: center center;
     height: 100vh;
+}
+
+.jord-img h2 {
+    margin-top: 100px;
+    font-size: 25px;
 }
 
 
