@@ -8,8 +8,8 @@
 body{
     color: white;
     background: black;
-    padding-bottom: 100px;
 }
+
 
 /*navigasjon*/
 nav{
@@ -18,6 +18,7 @@ nav{
 }
 
 nav h1{
+    top:8px; /*matcher med menyen*/
     position: absolute;
     width: 300px;
     color: #fff;
@@ -221,6 +222,30 @@ label #tegn-2{
 
 }
 
+.kolonne1a3{
+    float: left;
+    width: 320px;
+    margin: 10px;
+}
+
+.kolonne2a3 {
+    float: left;
+    width: 320px;
+    margin 10px;
+}
+
+.kolonne3a3 {
+    float: left;
+    width; 320px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: indigo;
+    margin-top: 600px;
+    padding: 15px;
+    text-align: center;
+}
 
 
 
