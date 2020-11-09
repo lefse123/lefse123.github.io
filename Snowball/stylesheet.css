@@ -7,7 +7,8 @@
 
 body{
     color: white;
-    background:
+    background: black;
+    padding-bottom: 100px;
 }
 
 /*navigasjon*/
@@ -18,8 +19,7 @@ nav{
 
 nav h1{
     position: absolute;
-    width: 200px;
-    top: 8px;
+    width: 300px;
     color: #fff;
 }
 
@@ -59,16 +59,47 @@ label #tegn-2{
     display: none;
 }
 
-.banner-area {
-    background:linear-gradient(to right, rgba(0,0,0,6),rgba(0,0,0,6));
+/*banner index*/
+
+.banner-omrd {
     background-image: url(img/marsnasaheader.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: 60vh;
 }
 
 .banner-tekst {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*tilpasning til nettlesere*/
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tekst h2 {
+    color: white;
+    margin-top: -310px; /*plassering av tekst på banner*/
+    text-align: center;
+}
+
+/*banner starships*/
+
+.banner-omrd-star {
+    background-image: url(img/Guardians.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+
+.banner-tekst-star {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -81,10 +112,38 @@ label #tegn-2{
     justify-content: center;
 }
 
-.banner-tekst h2 {
+.banner-tekst-star h2 {
     color: white;
-    margin-top: -140px;
-    font-size:56px;
+    margin-top: 120px; /*plassering av tekst på banner*/
+    text-align: center;
+}
+
+/*banner space projects*/
+
+.banner-omrd-space {
+    background-image: url(img/mars1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+
+.banner-tekst-space {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tekst-space h2 {
+    color: white;
+    margin-top: -300px; /*plassering av tekst på banner*/
     text-align: center;
 }
 
@@ -96,14 +155,14 @@ label #tegn-2{
     }
     nav ul {
         position: fixed;
-        width: 100%;
-        height: 100vh;
+        width: 100%; /*bredden av greia som kjøres ut*/
+        height: 100vh;  /*høyden på greia som kjøres ut, matcher banner*/
         background: indigo;
         top: 50px;
         left: -100%;
         text-align: center;
-        transition: .5s;
-        z-index: 10;
+        transition: .5s; /*hastighet på utrulling*/
+        z-index: 10; /*overrkjører tekst bak utrullingsgreia*/
     }
     nav li {
         display: block;
