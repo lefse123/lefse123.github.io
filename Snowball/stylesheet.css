@@ -85,8 +85,10 @@ label #tegn-2{
 
 .banner-tekst h2 {
     color: white;
-    margin-top: -310px; /*plassering av tekst på banner*/
+    margin-top: -300px; /*plassering av tekst på banner*/
     text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
 }
 
 /*banner starships*/
@@ -145,6 +147,39 @@ label #tegn-2{
     color: white;
     margin-top: -300px; /*plassering av tekst på banner*/
     text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+/*banner space projects*/
+
+.banner-omrd-heis {
+    background-image: url(img/buzz.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 60vh;
+}
+
+.banner-tekst-heis {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-tekst-heis h2 {
+    color: white;
+    margin-top: -300px; /*plassering av tekst på banner*/
+    text-align: center;
+    font-size: 56px;
+    text-transform: uppercase;
 }
 
 
