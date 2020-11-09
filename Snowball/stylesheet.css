@@ -228,17 +228,61 @@ label #tegn-2{
 }
 
 
-/* Create three equal columns that floats next to each other */
+/*om planetene index*/
 
-.jord {
+.mars h1 {
     margin-top: 100px;
     align-content: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.mars h2 {
+    margin-top: 100px;
+    max-width: 960px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+.mars-img {
+    padding-top: 200px;
+    background-image: url(img/marsbar.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.jord h1 {
+    margin-top: 100px;
+    align-content: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.jord h2 {
+    margin-top: 100px;
+    max-width: 960px;
+    text-align: center;
+    font-size: 25px;
+
 }
 
 .jord-img {
-    background-image: url
+    padding-top: 200px;
+    background-image: url(img/jorden.png);
+     -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
 
+
+/*kolonne-content*/
 
 .rad {
     padding-top: 35px;
@@ -249,8 +293,6 @@ label #tegn-2{
     width: 30.0%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
-
-
 }
 
 
@@ -267,6 +309,7 @@ label #tegn-2{
     padding: 20px;
     margin-top: 20px;
     text-align: center;
+    font-size: 14px;
 }
 
 
