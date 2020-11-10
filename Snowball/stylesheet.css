@@ -305,6 +305,7 @@ label #tegn-2{
 /*kolonner space*/
 
 .space-kolonne1a2 {
+    padding-top: 100px;
     float: left;
     width: 620px;
     margin: 10px;
@@ -312,11 +313,14 @@ label #tegn-2{
 }
 
 .space-kolonne2a2 {
+    padding-top: 100px;
     float: left;
     width: 300px;
     margin: 10px;
     text-align: left;
+    line-height: 1.5em;
 }
+
 
 #artikkel2 {
     padding-top: 100px;
@@ -325,6 +329,38 @@ label #tegn-2{
 #artikkel3 {
     padding-top: 100px;
 }
+
+/*kolonner nicki minaj*/
+.star1-kolonne1a2 {
+    float: left;
+    padding-top: 80px;
+    line-height: 2em;
+}
+
+.star1-kolonne2a2 {
+    background-image: url(img/Starship-2019-SpaceX-ISS-docked-1.gif);
+     -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.star2-kolonne1a2 {
+    background-image:url(img/spacex-.jpg);
+     -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.star2-kolonne2a2 {
+    float: right;
+    line-height: 2em;
+    width: 300px;
+    margin-top: -340px;
+    margin-right: 100px;
+}
+
 
 .footer {
     background-color: indigo;
