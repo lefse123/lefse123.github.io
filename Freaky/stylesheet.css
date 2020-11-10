@@ -35,7 +35,7 @@ img.align-center{
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #ffaec8;
+  color: black;
   display: block;
   border: none;
   background: none;
@@ -46,12 +46,12 @@ img.align-center{
 }
 
 .sidebar a, .droppknapp:hover {
-  color: #ffaec8;
+  color: black;
 }
 
 .dropdown-container {
   display: none;
-  background-color: #ffaec8;
+  background-color:black;
   padding-left: 8px;
 }
 
@@ -63,6 +63,7 @@ img.align-center{
     position: absolute;
     font-size: 16px;
     width: 960px;
+    padding-bottom: 100px;
 }
 .ommeg {
     background-color: white;
