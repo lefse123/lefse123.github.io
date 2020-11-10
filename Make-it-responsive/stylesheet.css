@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+
+.omrd-banner {
+    background: url(/img/2020-11-10.png);
+    height: 60vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+#tittel {
+    font-size: 30px;
+    text-align: center;
+}
+
+.purpose {
+    float: left;
+}
+
+.purpose-tekst {
+    float: right;
+}
+
+.expertise {
+    float: left;
+}
+
+.expertise-tekst {
+    float: right;
+}
