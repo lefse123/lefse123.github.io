@@ -12,8 +12,10 @@ body{
 
 #maincontent {
     overflow: hidden; /*holder footer nede*/
+    max-width: 960px;
     align-content: center;
     text-align: center;
+    margin: auto;
 }
 
 /*navigasjon*/
@@ -254,12 +256,8 @@ label #tegn-2{
     height: 100vh;
 }
 
-.mars-img h2 {
-    margin-top: 100px;
-    margin-left: 50px;
-    margin: auto;
+.mars p1 {
     font-size: 25px;
-    text-align: center;
 }
 
 
@@ -279,8 +277,7 @@ label #tegn-2{
     height: 100vh;
 }
 
-.jord-img h2 {
-    margin-top: 100px;
+.jord p1 {;
     font-size: 25px;
 }
 
