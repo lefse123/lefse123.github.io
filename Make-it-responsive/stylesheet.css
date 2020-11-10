@@ -1,5 +1,4 @@
 
-
 .omrd-banner {
     background: url(/img/2020-11-10.png);
     height: 60vh;
@@ -21,7 +20,7 @@
 }
 
 .person {
-    position: absolute;
+    display: inline-block;
     bottom: 0px;
 }
 
@@ -29,4 +28,6 @@
     width: 100%;
     display: block;
 }
+
+/*legger inn responsivitet i siste filen*/
 
