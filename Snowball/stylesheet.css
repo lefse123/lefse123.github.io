@@ -286,9 +286,7 @@ label #tegn-2{
 }
 
 
-/*kolonner nederst*/
-
-
+/*kolonner nederst index*/
 .kolonne1a2 {
     padding-top: 100px;
     padding-right: 100px;
@@ -302,6 +300,30 @@ label #tegn-2{
     width: 400px;
     float: left;
     margin: 15px;
+}
+
+/*kolonner space*/
+
+.space-kolonne1a2 {
+    float: left;
+    width: 620px;
+    margin: 10px;
+    text-align: left;
+}
+
+.space-kolonne2a2 {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+#artikkel2 {
+    padding-top: 100px;
+}
+
+#artikkel3 {
+    padding-top: 100px;
 }
 
 .footer {
