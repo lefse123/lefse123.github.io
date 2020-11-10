@@ -361,6 +361,12 @@ label #tegn-2{
     margin-right: 100px;
 }
 
+.artikkelspace {
+    padding-top: 50px;
+    text-align: left;
+    line-height: 2em;
+}
+
 
 .footer {
     background-color: indigo;
