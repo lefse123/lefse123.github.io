@@ -27,6 +27,7 @@ nav{
 nav h1{
     top:8px; /*matcher med menyen*/
     position: absolute;
+    font-size: 18px;
     width: 300px;
     color: #fff;
 }
@@ -229,6 +230,8 @@ label #tegn-2{
 
 }
 
+/*pil ned*/
+
 #tegn-3 {
     font-size: 100px;
     color: #fff;
@@ -257,6 +260,7 @@ label #tegn-2{
 }
 
 .mars p1 {
+    margin-top: 100px;
     font-size: 25px;
 }
 
@@ -282,34 +286,30 @@ label #tegn-2{
 }
 
 
-/*kolonne-content*/
+/*kolonner nederst*/
 
-.rad {
-    padding-top: 35px;
-}
 
-.kolonne {
+.kolonne1a2 {
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 400px;
     float: left;
-    width: 30.0%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    margin: 15px;
 }
 
-
-/* Clear floats after the columns */
-.rad:after {
-    content: "";
-    display: table;
-    clear: both;
+.kolonne2a2 {
+    padding-top: 100px;
+    width: 400px;
+    float: left;
+    margin: 15px;
 }
-
 
 .footer {
     background-color: indigo;
     padding: 20px;
     margin-top: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 8px;
 }
 
 
