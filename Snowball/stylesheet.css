@@ -243,6 +243,7 @@ label #tegn-2{
 .scrolldown {
     text-align: center;
     cursor: pointer;
+    position: relative;
 }
 
 
