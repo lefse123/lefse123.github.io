@@ -1,6 +1,5 @@
 *{
     font-family: 'Kufam', cursive;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -278,6 +277,8 @@ label #tegn-2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    object-fit: cover;
+    object-position: bottom;
     max-width: 100%;
 }
 
@@ -287,19 +288,20 @@ label #tegn-2{
 
 
 /*kolonner nederst index*/
-.rad:after {
-    content: "";
-    display: flex;
-    clear: both;
-}
-
-.kolonne {
+.kolonne1a2 {
+    padding-top: 50px;
+    display: inline-block;
+    max-width: 400px;
     float: left;
-    width: 50%;
-    padding-top: 100px;
+    margin: 30px;
 }
 
-
+.kolonne2a2 {
+    padding-top: 50px;
+    max-width: 400px;
+    float: left;
+    margin: 40px;
+}
 
 /*tilpasning text*/
 
@@ -323,7 +325,7 @@ label #tegn-2{
 .space-kolonne1a2 {
     padding-top: 100px;
     float: left;
-    width: 620px;
+    max-width: 620px;
     margin: 10px;
     text-align: left;
 }
@@ -331,51 +333,77 @@ label #tegn-2{
 .space-kolonne2a2 {
     padding-top: 100px;
     float: left;
-    width: 300px;
+    max-width: 300px;
     margin: 10px;
     text-align: left;
     line-height: 1.5em;
 }
 
-
+#artikkel1 {
+    max-width: 960px;
+}
 #artikkel2 {
     padding-top: 100px;
+    max-width: 960px;
 }
 
 #artikkel3 {
     padding-top: 100px;
+    max-width: 960px;
 }
 
 /*kolonner nicki minaj*/
-.star1-kolonne1a2 {
-    float: left;
-    padding-top: 80px;
-    line-height: 2em;
-}
 
-.star1-kolonne2a2 {
-    background-image: url(img/Starship-2019-SpaceX-ISS-docked-1.gif);
-     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-}
-
-.star2-kolonne1a2 {
-    background-image:url(img/spacex-.jpg);
-     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-}
-
-.star2-kolonne2a2 {
+.star1-img {
     float: right;
-    line-height: 2em;
-    width: 300px;
-    margin-top: -340px;
-    margin-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    padding-bottom: 50px;
 }
+
+.star1-tekst {
+    padding-top: 190px;
+    max-width: 400px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.star2-img {
+    padding-top: 50px;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.star2-tekst{
+    float: right;
+    max-width: 400px;
+    text-align: left;
+    padding-right: 90px;
+    padding-top: 300px;
+}
+
+@media(max-width:846px){
+    .star1-img{
+        padding-bottom: 20px;
+    }
+    .star1-tekst{
+        padding: none;
+    }
+    .star2-tekst{
+        padding-right: 1px;
+        padding-top: 10px;
+    }
+}
+
 
 .artikkelspace {
     padding-top: 50px;
