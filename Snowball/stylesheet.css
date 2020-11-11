@@ -1,5 +1,6 @@
 *{
     font-family: 'Kufam', cursive;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -257,6 +258,7 @@ label #tegn-2{
     max-width: 100%;
     object-fit: cover;
     object-position: bottom;
+    padding-bottom: 30px;
 }
 
 .mars p1 {
@@ -285,19 +287,35 @@ label #tegn-2{
 
 
 /*kolonner nederst index*/
-.kolonne1a2 {
-    padding-top: 100px;
-    padding-right: 100px;
-    width: 400px;
-    float: left;
-    margin: 15px;
+.rad:after {
+    content: "";
+    display: flex;
+    clear: both;
 }
 
-.kolonne2a2 {
-    padding-top: 100px;
-    width: 400px;
+.kolonne {
     float: left;
-    margin: 15px;
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+
+/*tilpasning text*/
+
+@media(max-width:600px){
+    .mars h1 {
+        font-size: 30px;
+    }
+    .jord h1 {
+        font-size: 30px;
+    }
+    .mars p1 {
+        font-size: 16px;
+    }
+    .jord p1 {
+        font-size: 16px;
+    }
 }
 
 /*kolonner space*/
