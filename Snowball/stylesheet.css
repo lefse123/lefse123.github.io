@@ -251,12 +251,12 @@ label #tegn-2{
 }
 
 .mars-img {
-    padding-top: 300px;
-    background-image: url(img/marsbar.png);
-     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .mars p1 {
@@ -273,12 +273,10 @@ label #tegn-2{
 }
 
 .jord-img {
-    padding-top: 200px;
-    background-image: url(img/jorden.png);
-     -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
 .jord p1 {;
